@@ -79,9 +79,38 @@
     font-weight: bold;
 }
 
-.what-iam {
-    position: absolute;
-    width: 100vw;
-    height: 500px;
-    background: var(--blue75);
+
+.what-i-do {
+    width: 100%;
+    height: 650px;
+}
+
+.what-i-do > h2 {
+    margin-bottom: 100px;
+}
+
+.ctx__what {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.ctx__what > div {
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.ctx__what > div > ul > p {
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.ctx__what > div > ul > li {
+    color: grey;
+    line-height: 35px;
+}
+
+.ctx__what > div > ul > li > a {
+    color: #3D56B2;
 }
